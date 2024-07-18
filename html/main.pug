@@ -1,0 +1,23 @@
+mixin topic-card(type, topic, image)
+  .main__card 
+    .main__card-img
+      img.main__card-picture(src=image alt='')
+    .main__card-type=type
+    .main__card-topic=topic
+    .main__card-user
+      span.main__card-author Nike Bove
+      span.main__card-date  April 8 2018
+      span.main__card-views 3K Views
+    .main__card-description Structured gripped tape invisible moulded cups for sauppor firm hold strong powermesh front liner sport detail. Warmth comfort hangs loosely from the body large pockert at the front full button...
+
+main
+  .main 
+    +topic-card('Lifestyle', 'Right For Your Execise Regime', '../media/png/1.png')
+    +topic-card('Lifestyle', 'The Look: Perfect Balance', '../media/png/2.png')
+    +topic-card('Style', 'Fun Things to Do in Rome', '../media/png/3.png')
+    +topic-card('', '', '../media/png/4.png')
+    +topic-card('', '', '../media/png/5.png')
+    +topic-card('', '', '../media/png/6.png')
+    +topic-card('', '', '../media/png/7.png')
+    +topic-card('', '', '../media/png/8.png')
+    +topic-card('', '', '../media/png/9.png')
