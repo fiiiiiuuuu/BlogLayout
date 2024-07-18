@@ -50,8 +50,8 @@
     display: flex;
     align-items: center;
   }
-.main__card-date::before .main__card-date::after  {
-    content: none;
+.main__card-date::before, .main__card-date::after  {
+    content: '';
     background-color: #D7D7D7;
     height: 0.1875rem;
     width: 0.1875rem;
